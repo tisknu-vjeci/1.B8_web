@@ -1,1 +1,58 @@
-<p>ahoj<p/>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Virtual Casino</title>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Virtual Casino</h1>
+
+  </header>
+
+  
+
+  <main>
+
+    <div id="balance">Balance: <span id="balanceAmount">0 B</span></div>
+
+    <button id="spinButton">Spin</button>
+
+  </main>
+
+  
+
+  <!-- Admin Panel -->
+
+  <div id="adminPanel" style="display: none;">
+
+    <h2>Admin Panel</h2>
+
+    <label for="userSelect">Select User:</label>
+
+    <select id="userSelect"></select>
+
+    <br>
+
+    <label for="balanceInput">New Balance:</label>
+
+    <input type="number" id="balanceInput">
+
+    <button id="updateBalanceButton">Update Balance</button>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+

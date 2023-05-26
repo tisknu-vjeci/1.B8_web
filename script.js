@@ -1,5 +1,6 @@
-//Virtual currency balance
+// Virtual currency balance
 let balance = 0;
+let userId = null;
 
 // Function to update the balance on the webpage
 function updateBalance() {
@@ -28,8 +29,8 @@ const updateBalanceButton = document.getElementById("updateBalanceButton");
 
 // Mock user data (for demonstration)
 const users = [
-  { id: 1, name: "John" },
-  { id: 2, name: "Jane" },
+  { id: 1, name: "John", isAdmin: false },
+  { id: 2, name: "Jane", isAdmin: false },
   { id: 3, name: "Admin", isAdmin: true }
 ];
 
